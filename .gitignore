@@ -1,0 +1,13 @@
+# Keep raw data local (do not commit)
+data/raw/*
+!data/raw/.gitkeep
+
+# Database files (do not commit)
+*.db
+*.sqlite
+*.sqlite3
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
